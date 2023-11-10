@@ -55,7 +55,7 @@
             </div>
         </div>
     </div>
-    <script src="Build/test_4.loader.js"></script>
+    <script src="Build/test_fast_build.loader.js"></script>
     <script>
             var container = document.querySelector("#unity-container");
             var canvas = document.querySelector("#unity-canvas");
@@ -73,9 +73,9 @@
                 document.getElementById("startWebcamDiv").style.display = "none";
 
                 createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/test_4.data",
-                    frameworkUrl: "Build/test_4.framework.js",
-                    codeUrl: "Build/test_4.wasm",
+                    dataUrl: "Build/test_fast_build.data",
+                    frameworkUrl: "Build/test_fast_build.framework.js",
+                    codeUrl: "Build/test_fast_build.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "TEST_AR_DRAGON_2",
